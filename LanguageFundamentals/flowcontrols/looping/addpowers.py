@@ -1,10 +1,8 @@
 num =int(input("enter the number"))
-result=" "
+sum=0
 while num!=0:
     digit=num%10
     print(digit)
-    digit^3
-    print(digit)
-    result+=str(digit)
+    sum=(digit**3)+sum
     num=num//10
-print(result)
+print(sum)
