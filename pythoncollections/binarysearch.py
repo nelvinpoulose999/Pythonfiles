@@ -10,16 +10,16 @@ lowl=0
 uppl=len(arr)-1
 print(uppl)
 while (lowl<=uppl):
- mid=(lowl+uppl)//2
- #print(arr[mid])
- if(element>arr[mid]):
-  lowl=mid+1
- elif(element<arr[mid]):
-  uppl=mid-1
- elif(element==arr[mid]):
-     flag=1
-     break
+  mid=(lowl+uppl)//2
+   #print(arr[mid])
+  if(element>arr[mid]):
+    lowl=mid+1
+  elif(element<arr[mid]):
+        uppl=mid-1
+  elif(element==arr[mid]):
+    flag=1
+    break
 if(flag==1):
- print('element found',arr.index(element))
+        print('element found',arr.index(element))
 else:
-  print('not found')
+        print('not found')

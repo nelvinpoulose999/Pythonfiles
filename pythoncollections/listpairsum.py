@@ -4,9 +4,9 @@ flag=0
 for num in lst:
     for j in lst:
       if((num+j==element) & (num!=j)):
-
+        j += 1
         flag=1
-        break
+
       else:
           flag=0
 if flag==1:
