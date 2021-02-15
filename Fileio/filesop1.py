@@ -1,7 +1,7 @@
 f=open('news','r')
 name=set()
 for line in f:
-    words=line.rstrip('\n').split(' ')
+    words=line.rstrip('\n,.,,').split(' ')
 
     for word in words:
         name.add(word)

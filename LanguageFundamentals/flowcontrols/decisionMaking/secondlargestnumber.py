@@ -1,8 +1,8 @@
 # secondlargest
-num = int(input("enter 1st number"))
-num1 = int(input("enter 2nd number"))
-num2 = int(input("enter 3rd number"))
-if (num>num1) & (num>num2):
+num = int(input("enter 1st number"))# 5
+num1 = int(input("enter 2nd number"))#4
+num2 = int(input("enter 3rd number"))#3
+if (num>num1) & (num>num2):#5>4,5>3
     if num1>num2:
      print("2nd number is second larger",num1)
     else:

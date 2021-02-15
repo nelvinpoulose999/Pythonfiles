@@ -2,7 +2,7 @@
 limit = int(input("enter the limit"))
 flag=0
 for i in range (2,limit):
-    if(limit%i==0):
+    if(limit%i==0):#endlimit%startlimit==0
         flag=1
         break
     else:

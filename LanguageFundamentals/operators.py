@@ -1,11 +1,11 @@
 # ARITHMETIC operators +,-,/,*,//,**
-print(10+2)
-print(10-2)
-print(10/3)
-print(10*3)
-print(10//3)
-print(10**3)
-print(10%3)
+print(10+2)# add
+print(10-2)# subtract
+print(10/3) # division
+print(10*3)# multiply
+print(10//3) # floor division
+print(10**3) # power
+print(10%3)  # modulus
 
 
 #LOGICAL OPERATORS
