@@ -35,7 +35,7 @@ for percent in icc_test_wc_table:
 # print the property that as input
 id = input('enter the id')
 if id in icc_test_wc_table:
-        property = int(input("enter the property"))
+        property = input("enter the property")
         if property in icc_test_wc_table[id]:
             print(icc_test_wc_table[id]['id'],icc_test_wc_table[id][property])
         else:
