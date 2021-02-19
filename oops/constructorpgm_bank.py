@@ -16,8 +16,18 @@ class Bank:
         else:
             self.balance-=amount
             print(' account debited with:', amount,'\n','balance amount:', self.balance)
+password=(1234)
+pswrd=int(input("enter the password"))
+if pswrd==password:
 
-obj = Bank(1000,'akhil',3000)
+    id=int(input("enter thre id"))
+    name=input("enter the name")
+    balance=3000
 
-obj.deposit(5000)
-obj.withdraw(2000)
+    obj = Bank(id,name,balance)
+
+    obj.deposit(5000)
+    obj.withdraw(2000)
+
+else:
+    print("invalid pswrd")
