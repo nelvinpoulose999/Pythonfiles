@@ -20,13 +20,14 @@ password=(1234)
 pswrd=int(input("enter the password"))
 if pswrd==password:
 
-    id=int(input("enter thre id"))
+    accno=int(input("enter thre account number"))
     name=input("enter the name")
     balance=3000
 
-    obj = Bank(id,name,balance)
+    obj = Bank(accno,name,balance)
+    dep= int(input('enter the amount'))
 
-    obj.deposit(5000)
+    obj.deposit(dep)
     obj.withdraw(2000)
 
 else:
