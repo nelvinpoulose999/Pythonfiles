@@ -17,3 +17,4 @@ print(vehlst)
 fw=open('outputfil','w')
 for out in vehlst:
     fw.write(out+'\n')
+

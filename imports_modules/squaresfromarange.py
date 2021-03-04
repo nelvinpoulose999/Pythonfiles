@@ -7,4 +7,4 @@ def sqr(a,b,c):
     for j in range(lowl,uppl+1):
         if(j==res):
             print(res)
-#sqr(num,lowl,uppl)
+sqr(num,lowl,uppl)
